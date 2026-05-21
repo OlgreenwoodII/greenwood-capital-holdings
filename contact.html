@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Greenwood Capital Holdings Inc.</title>
+  <meta name="description" content="Get in touch with Greenwood Capital Holdings Inc. — for business owners, investors, lenders, brokers, and strategic partners interested in long-term ownership.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="apple-touch-icon" href="images/favicon.svg">
+  <link rel="stylesheet" href="css/styles.css?v=5">
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__brand">
+        <img src="images/logo-mark.svg" alt="" class="nav__mark">
+        <span class="nav__brand-text">Greenwood Capital<small>Holdings Inc.</small></span>
+      </a>
+      <button class="nav__toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+      <ul class="nav__menu">
+        <li><a href="index.html" class="nav__link">Home</a></li>
+        <li><a href="about.html" class="nav__link">About</a></li>
+        <li><a href="portfolio.html" class="nav__link">Portfolio</a></li>
+        <li><a href="team.html" class="nav__link">Team</a></li>
+        <li><a href="investment-criteria.html" class="nav__link">Investment Criteria</a></li>
+        <li><a href="careers.html" class="nav__link">Careers</a></li>
+        <li><a href="contact.html" class="nav__cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="page-header">
+    <div class="container">
+      <span class="eyebrow">Contact</span>
+      <h1>Let's start a conversation.</h1>
+      <p>Whether you are a business owner, operator, broker, lender, or strategic partner — we welcome the introduction. Every conversation is confidential and answered personally.</p>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- LEFT: Info -->
+        <div class="contact-info reveal">
+          <span class="eyebrow">Get in Touch</span>
+          <h2>We'd value the introduction.</h2>
+          <p style="margin: 1rem 0 2.5rem;">Greenwood Capital Holdings is actively evaluating acquisition opportunities and strategic relationships. If your business, client, or interests align with our criteria, please reach out — we respond to every inquiry directly.</p>
+
+          <div class="contact-info__item">
+            <div class="contact-info__icon">@</div>
+            <div>
+              <div class="contact-info__label">Email</div>
+              <div class="contact-info__value"><a href="mailto:info@greenwoodcapitalholdings.com">info@greenwoodcapitalholdings.com</a></div>
+            </div>
+          </div>
+
+          <div class="contact-info__item">
+            <div class="contact-info__icon">T</div>
+            <div>
+              <div class="contact-info__label">Phone</div>
+              <div class="contact-info__value"><a href="tel:+13466291863">(346) 629-1863</a></div>
+            </div>
+          </div>
+
+          <div class="contact-info__item">
+            <div class="contact-info__icon">L</div>
+            <div>
+              <div class="contact-info__label">Headquarters</div>
+              <div class="contact-info__value">Houston, Texas</div>
+            </div>
+          </div>
+
+          <div class="contact-info__item">
+            <div class="contact-info__icon">H</div>
+            <div>
+              <div class="contact-info__label">Office Hours</div>
+              <div class="contact-info__value">Monday – Friday &nbsp;·&nbsp; 8:00 AM – 6:00 PM CT</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT: Form -->
+        <form class="form reveal" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" novalidate>
+          <input type="hidden" name="form-name" value="contact">
+          <p style="display:none;"><label>Don't fill this out if you're human: <input name="bot-field"></label></p>
+          <div class="form__success">Thank you for reaching out. A member of our team will respond to you personally within one business day.</div>
+
+          <div class="form__row">
+            <div class="form__group">
+              <label class="form__label" for="name">Full Name</label>
+              <input class="form__input" type="text" id="name" name="name" required>
+            </div>
+            <div class="form__group">
+              <label class="form__label" for="email">Email Address</label>
+              <input class="form__input" type="email" id="email" name="email" required>
+            </div>
+          </div>
+
+          <div class="form__row">
+            <div class="form__group">
+              <label class="form__label" for="phone">Phone Number</label>
+              <input class="form__input" type="tel" id="phone" name="phone">
+            </div>
+            <div class="form__group">
+              <label class="form__label" for="company">Company Name</label>
+              <input class="form__input" type="text" id="company" name="company">
+            </div>
+          </div>
+
+          <div class="form__group">
+            <label class="form__label" for="reason">Reason for Inquiry</label>
+            <select class="form__select" id="reason" name="reason" required>
+              <option value="">Please select an option…</option>
+              <option value="seller">I am a business owner exploring a sale</option>
+              <option value="broker">I am a broker or M&amp;A advisor with an opportunity</option>
+              <option value="operator">I am an operator interested in partnering</option>
+              <option value="investor">I am an investor or capital partner</option>
+              <option value="lender">I am a lender or financing source</option>
+              <option value="strategic">Strategic partnership or referral</option>
+              <option value="other">Other inquiry</option>
+            </select>
+          </div>
+
+          <div class="form__group">
+            <label class="form__label" for="message">Message</label>
+            <textarea class="form__textarea" id="message" name="message" rows="6" placeholder="Tell us a bit about your business, opportunity, or how we can help…" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--primary form__submit">Send Message</button>
+          <p class="form__note">All inquiries are confidential. We respond personally within one business day.</p>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- WHO SHOULD REACH OUT -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-header center">
+        <span class="eyebrow">Who Should Reach Out</span>
+        <h2>We welcome conversations with…</h2>
+      </div>
+      <div class="grid grid--4">
+        <div class="card reveal">
+          <div class="card__icon">B</div>
+          <h3>Business Owners</h3>
+          <p>Founders and families exploring succession, retirement, or a partial liquidity event — seeking a respectful long-term home for the business they built.</p>
+        </div>
+        <div class="card reveal">
+          <div class="card__icon">I</div>
+          <h3>Investors</h3>
+          <p>Co-investment partners, family offices, and individual investors interested in long-term ownership of essential operating businesses.</p>
+        </div>
+        <div class="card reveal">
+          <div class="card__icon">L</div>
+          <h3>Lenders</h3>
+          <p>Senior lenders, mezzanine providers, and asset-based lenders interested in financing acquisitions of cash-flowing operating companies.</p>
+        </div>
+        <div class="card reveal">
+          <div class="card__icon">P</div>
+          <h3>Strategic Partners</h3>
+          <p>Brokers, M&amp;A advisors, accountants, attorneys, and operators with relationships that could lead to mutually beneficial opportunities.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div>
+          <div class="footer__brand"><span class="nav__mark">G</span><span>Greenwood Capital Holdings</span></div>
+          <p>A private holding company building long-term value through disciplined acquisitions and operational excellence across service, agriculture, real estate, and essential business sectors.</p>
+        </div>
+        <div>
+          <h4>Navigate</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="team.html">Team</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="investment-criteria.html">Investment Criteria</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <div class="footer__contact">
+            <div>Houston, Texas</div>
+            <div><a href="mailto:info@greenwoodcapitalholdings.com">info@greenwoodcapitalholdings.com</a></div>
+            <div><a href="tel:+13466291863">(346) 629-1863</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__disclaimer">The information on this website is provided for general informational purposes only and does not constitute an offer to sell, a solicitation of an offer to buy, or a recommendation regarding any securities, investment products, or services. Nothing herein should be construed as legal, tax, accounting, or investment advice. Greenwood Capital Holdings Inc. is a private holding company and is not a registered investment adviser or broker-dealer.</p>
+        <p class="footer__copy">© 2026 Greenwood Capital Holdings Inc.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js?v=5"></script>
+</body>
+</html>
