@@ -1,0 +1,9 @@
+# Netlify configuration for Greenwood Capital Holdings
+# Static HTML site (no build step) with serverless functions for form notifications.
+
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
